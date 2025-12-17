@@ -1,0 +1,13 @@
+void dgesv_(int *N, int *NRHS, double *A, int *LDA, int *IPIV,double *B, int *LDB, int *INFO );
+void dgetrs_(char *TRANS,int *N,int *NRHS, double *A,int *LDA,int *IPIV,double *B,int *LDB,int *INFO , int dummy);
+void dscal_(int *n,double *da, double *dx, int *incx);
+void dgemv_(char *TRANS,int *M,int *N, double *ALPHA,double *A, int *LDA,double *X,int *INCX,double *BETA, double *Y,int *INCY,int dummy );
+double dlamch_(char *CMACH, int dummy);
+int drank_(int *n,double *S);
+double dlange_(char *NORM, int *M, int *N, double *A, int *LDA, double *WORK);
+void dlaset_(char *UPLO, int *M, int *N, double *ALPHA, double *BETA, double *A, int *LDA);
+void dgemm_(char *TRANSA, char *TRANSB, int *M, int *N, int *K, double *ALPHA, double *A, int *LDA, double *B, int *LDB, double *BETA, double *C, int *LDC);
+void dlacpy_(char *UPLO, int *M, int *N, double *A, int *LDA,double *B, int *LDB);
+void dgetrf_(int *M,int *N,double *A,int *LDA,int *IPIV,int *INFO );
+void dgesvd_(char *JOBU ,char *JOBVT,int *M, int *N, double *A, int *LDA, double *S, double *U, int *LDU, double *VT, int *LDVT, double *WORK, int *LDWORK, int *INFO, int dummy1, int dummy2);
+void daxpy_(int *n,double *da, double *dx,int *incx,double *dy, int *incy);

@@ -1,0 +1,1 @@
+int dgearefpo(double *A11,int lda11, double *A12,int lda12, double *A21,int lda21, double *A22,int lda22, double *X0,int ldax0, double tol,int maxiter);

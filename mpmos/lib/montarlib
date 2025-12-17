@@ -1,0 +1,3 @@
+#gcc -O3 -fopenmp -c mpmos.c -o mpmos.o
+gcc -O3 -fopenmp -c mpmos.c -o mpmos.o
+ar rcs libmpmos.a mpmos.o

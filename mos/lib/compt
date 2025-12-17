@@ -1,0 +1,1 @@
+gcc -O3 test.c -o test.o libmos.a -lm -fopenmp

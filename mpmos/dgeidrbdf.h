@@ -1,0 +1,1 @@
+int dgeidrbdf(int pn,double pr, double tf, double h, int r,double tol, int maxiter,FILE *fsal,double *X0,double *time, int *n_iter);

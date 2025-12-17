@@ -1,0 +1,3 @@
+#gcc -O3 -fopenmp -c mos.c -o mos.o
+gcc -O3 -c mos.c -o mos.o
+ar rcs libmos.a mos.o

@@ -1,0 +1,1 @@
+icc -DMKL_DIRECT_CALL -fpp -O3 -mkl -static-intel -o pridr.exe pridr.c timer.c memoryfun.c dgeidrbdf.c caso_2.c dgearefpo.c -lm

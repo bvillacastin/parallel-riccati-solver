@@ -1,0 +1,4 @@
+gcc -O3 testft.c -o testft.o libmpmos.a -lm -fopenmp
+gcc -O3 testht.c -o testht.o libmpmos.a -lm -fopenmp
+gcc -O3 testqt.c -o testqt.o libmpmos.a -lm -fopenmp
+gcc -O3 testdt.c -o testdt.o libmpmos.a -lm -fopenmp
